@@ -1,0 +1,21 @@
+algoritmo "nota_escolar"
+var
+
+Nome:caractere
+N1,N2,N3,R:real
+
+inicio
+escreva("Digite seu nome:")
+leia(Nome)
+escreva("Informe sua primeira nota:")
+leia(N1)
+escreva("Informe sua segunda nota:")
+leia(N2)
+escreva("Informe sua terceira nota:")
+leia(N3)
+R <- (N1+N2+N3)/3
+
+escreval("Seu nome é: ",Nome)
+escreval("Sua média foi: ",R)
+
+fimalgoritmo
