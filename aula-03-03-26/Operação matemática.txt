@@ -1,0 +1,15 @@
+algoritmo "Operação_Matemática"
+var
+N1,N2,R:real
+
+inicio
+
+escreval("Digite o primeiro número:")
+leia(N1)
+escreval("Digite o segundo número:")
+leia(N2)
+
+R <- N1+N2
+
+escreva("A soma dos números é,:", R)
+Fimalgoritmo
